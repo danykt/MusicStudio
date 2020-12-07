@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Quicksand:wght@300&family=Racing+Sans+One&family=Varela+Round&display=swap');
+body{
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f5f5f5;
+}
+
+#navbar-section{
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: space-around;
+  border-bottom: solid 1px #e5eaf5;
+}
+.underline{
+  padding-bottom: 5px;
+  border-bottom: solid blue;
+}
+.inline-block {
+  margin: 20px;
+  padding: 10px 15px;
+}
+
+.search-form{
+  min-width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e5eaf5;
+}
+.search-form input {
+  display: inline-block;
+  background-color: #e5eaf5;
+  font-family: sans-serif;
+  border: none;
+}
+.search-form button {
+  background-color: #e5eaf5;
+  border: none;
+  float: right;
+}
+
+.orange-circle{
+  display: inline;
+  padding: 8px 16px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.navbar{
+  display: block;
+}
+
+#brand{
+  font-weight: bold;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+
+.navbar-link{
+  display: inline-block;
+  padding: 0 15px;
+  padding-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+#mycollection{
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+
+.navbar-link a{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.main-container{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+
+.left-section{
+  width: 60%;
+}
+
+.wide-card{
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
+.wide-card h1{
+  padding:  20px;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+#wide-top-photo{
+  background-image: url("../res/jakob-owens-ujxpgndoA2I-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card1{
+  background-image: url("../res/elice-moore-E--AUpYXbjM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card2{
+  background-image: url("../res/giorgio-trovato-gv2E6bX7qLo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#card3{
+  background-image: url("../res/obi-onyeador-EI4GuyX8qKE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#card4{
+  background-image: url("../res/anton-ponomarev-vyzDsy5whUo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#wide-bottom-photo{
+  background-image: url("../res/jane-duursma-CWEuo_qZsrI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.genre-link{
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.genre-link a{
+  text-decoration: none;
+  color: gray;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+.description p {
+  display: inline;
+}
+.description div{
+  display: inline;
+  float: right;
+}
+
+.album-cards{
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.card-section{
+  display: inline-block;
+  margin: 5px;
+}
+.card{
+  height: 120px;
+  min-width: 130px;
+  background-color: hotpink;
+  border-radius: 10px;
+}
+.card-section h6, p{
+  margin: 0;
+  font-size: 15px;
+}
+
+.right-section{
+  width: 20%;
+}
+
+.side-card{
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 100%;
+  height: 200px;
+}
+
+.side-card-image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../res/c-d-x-PDX_a_82obo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.side-card-description{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  line-height: 2;
+  height: 50%;
+  text-align: center;
+  background-color: #7d3cff;
+  color: white;
+}
+.footer{
+  margin-top: 20px;
+  background-color: #202020;
+  color: #707070;
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.footer-item{
+  display: inline-table;
+}
+
+#company-email{
+  color: #ffdf6c;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 769px){
+  .main-container{
+    display: inline-block;
+    width: 98%;
+    align-content: center;
+    margin-left: 6px;
+  }
+  .left-section{
+    width: 100%;
+  }
+  .right-section{
+    width: 100%;
+  }
+
+  #navbar-section{
+    display: inline;
+  }
+  .inline-block{
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+}
